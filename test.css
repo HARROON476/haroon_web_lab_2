@@ -1,0 +1,108 @@
+/* styles.css */
+*{
+    font-family: 'Poppins', sans-serif;
+    }
+
+.lc{
+    width: Hug (117px);
+height: Hug (24px);
+gap: 16px;
+
+
+}
+.sm{
+    width: Hug (375px);
+    height: Hug (604px);
+    top: 92px;
+    padding: 114px 24px 114px 24px;
+    gap: 12px;
+    
+
+}
+
+.pt {
+    width: 327px;
+    height: 150px;
+    
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    
+
+}
+.pt1{
+    width: 327px;
+    height: 146px;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+       
+
+}
+.appbar {
+    /* Add any additional styling here */
+    width: 375px;
+height: 92px;
+padding: 44px 0px 0px 0px;
+    
+}
+
+.logoph{
+    
+    color: blue;
+    width: Hug (100px);
+    height: Hug (40px);
+    top: 4px;
+    left: 12px;
+    padding: 10px 12px 10px 12px;
+     
+
+}
+.logot{
+
+    width: 76px;
+    height: 20px;
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+
+
+}
+.button{
+    width: 24px;
+    height: 24px;
+    padding: 6px 3px 6px 3px;
+    
+
+
+}
+.buttonc{
+width:  40px;
+height:  40px;
+top: 4px;
+left: 311px;
+padding: 8px;
+border-radius: 8px;
+position: relative;
+
+}
+
+.headline{
+    width: 375px;
+height: 604px;
+top: 92px;
+padding: 114px 24px 114px 24px;
+gap: 12px;
+
+}
