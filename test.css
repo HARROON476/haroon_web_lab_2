@@ -1,108 +1,154 @@
-/* styles.css */
-*{
+* {
     font-family: 'Poppins', sans-serif;
-    }
-
-.lc{
-    width: Hug (117px);
-height: Hug (24px);
-gap: 16px;
-
-
-}
-.sm{
-    width: Hug (375px);
-    height: Hug (604px);
-    top: 92px;
-    padding: 114px 24px 114px 24px;
-    gap: 12px;
-    
-
-}
-
-.pt {
-    width: 327px;
-    height: 150px;
-    
-    font-family: Poppins;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 52px;
-    letter-spacing: 0em;
-    text-align: left;
-    
-    
-
-}
-.pt1{
-    width: 327px;
-    height: 146px;
-font-family: Poppins;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: left;
-
-       
-
-}
-.appbar {
-    /* Add any additional styling here */
+  }
+  
+  .Container {
     width: 375px;
-height: 92px;
-padding: 44px 0px 0px 0px;
-    
-}
+    height: 92px;
+    padding-top: 44px;
 
-.logoph{
-    
-    color: blue;
-    width: Hug (100px);
-    height: Hug (40px);
+
+  }
+  
+  .ToolbarDark {
+
+    width: 375px;
+    height: 48px;
+    top: 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4px 24px 4px 12px;
+
+  }
+  .MyLogoContainer {
+    width: 100px;
+    height: 40px;
     top: 4px;
     left: 12px;
-    padding: 10px 12px 10px 12px;
-     
-
-}
-.logot{
-
+  }
+  
+  .MyLogo {
     width: 76px;
     height: 20px;
-    font-family: Poppins;
-font-size: 18px;
-font-weight: 700;
-line-height: 20px;
-letter-spacing: 0em;
-text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    align-content: center;
+    color: #6070ff;
+  }
+  
+  .BurgerButtonContainer {
+    width: 40px;
+    height: 40px;
+    top: 4px;
+    left: 311px;
+    padding: 8px;
+    border-radius: 8px;
+   
 
-
-}
-.button{
+    
+  }
+  
+  .BurgerButtonContainer2 {
     width: 24px;
     height: 24px;
     padding: 6px 3px 6px 3px;
-    
-
-
-}
-.buttonc{
-width:  40px;
-height:  40px;
-top: 4px;
-left: 311px;
-padding: 8px;
-border-radius: 8px;
-position: relative;
-
-}
-
-.headline{
+   
+  }
+  
+  .BurgerButton {
+    width: 18px;
+    height: 12px;
+    top: 4px;
+    left: 3px;
+    color: #6070ff;
+  }
+  .MainPage {
     width: 375px;
-height: 604px;
-top: 92px;
-padding: 114px 24px 114px 24px;
-gap: 12px;
-
+    height: 604px;
+    top: 92px;
+    padding: 114px 24px 114px 24px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    background-image: url('Assets/header-shapes\ mobileback.svg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-y: 12px;
+  }
+  
+  .header2 {
+    width: 327px;
+    height: 150px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    color: #172b4d;
+  }
+  
+  .Body2 {
+    width: 327px;
+    height: 146px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #344563;
+  }
+  
+  .socialcontainer {
+    width: 122px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
+    gap: 8px;
+    
 }
+  
+  .SocialIcons {
+    width: 170.17px;
+    height: 20px;
+    color: #505f79;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .twitter {
+    width: 19.99px;
+    height: 19.96px;
+    background-image: url('Assets/Vectortwitter.svg');
+  }
+  
+  .linkedin {
+    margin-left: 19.01px;
+    width: 20px;
+    height: 20px;
+    background-image: url('Assets/Linkedin\ iconlinkedin.svg');
+    background-size: cover;
+  }
+  
+  .M {
+    margin-left: 20px;
+    width: 20px;
+    height: 16px;
+    background-image: url('Assets/Vectorm.svg');
+    margin-top: 2px;
+  }
+  
+  .github {
+    margin-left: 20px;
+    width: 17.99px;
+    height: 20px;
+    background-image: url('Assets/Vectorcat.svg');
+    background-size: cover;
+  }
+  
+  .Hand {
+    margin-left: 19.01px;
+    width: 14.17px;
+    height: 20px;
+    background-image: url('Assets/Vectorvictory.svg');
+    background-size: cover;
+  }
